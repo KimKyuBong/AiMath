@@ -1,0 +1,23 @@
+# 퍼셉트론 이해하기
+# xi : 변수
+# wi : 가중치
+
+# x1*w1 + x2*w2 계산하기
+x1, x2 = 1, 0
+w1, w2 = 0.5, 0.5
+
+result = x1*w1 + x2*w2
+
+print(result) # print() : 출력하는 함수
+
+
+
+# d : 임계치
+
+d  = 0.7
+if result > d:
+  result = 1
+else:
+  result = 0
+
+print(result)
